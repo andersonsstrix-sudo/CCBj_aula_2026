@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b6c7r7uym0iy3"]
+
+[ext_resource type="Script" uid="uid://dlmxxbnufvof0" path="res://3d/Lobinho/ativar_camera.gd" id="1_ujnk0"]
+
+[node name="ativar_camera" type="Area3D" unique_id=761080266]
+script = ExtResource("1_ujnk0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

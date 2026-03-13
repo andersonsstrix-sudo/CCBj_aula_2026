@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://c3x4cq7o2yoql"]
+
+[node name="menuaudio" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HSlider" type="HSlider" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 20.0
+offset_right = 232.0
+offset_bottom = 36.0
+scale = Vector2(0.595, 0.595)
+scrollable = false
+ticks_on_borders = true
+ticks_position = 3

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlydfhwadpm5s"]
+
+[ext_resource type="PackedScene" uid="uid://c0dv3eltwo4wn" path="res://3d/Lobinho/lobaoo.glb" id="1_bwirh"]
+
+[node name="EL_LOBO" type="Node3D"]
+
+[node name="lobaoo" parent="." instance=ExtResource("1_bwirh")]
